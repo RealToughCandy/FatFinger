@@ -1,0 +1,20 @@
+* {
+	cursor: none;
+}
+
+figure#mouse-pointer {
+	background-image: url('../img/Fingerprint.png');
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	margin-left: -8px;
+	display: block;
+}
+
+  .cursor {
+    position: absolute;
+    width: 140px;
+    height: 130px;
+      left: -100px;
+    pointer-events: none;
+  }
